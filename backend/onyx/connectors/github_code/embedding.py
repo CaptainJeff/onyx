@@ -1,6 +1,7 @@
 # File: onyx/connectors/github_code/embedding.py
 
 import math
+import os
 from typing import List, Tuple, Optional
 
 try:

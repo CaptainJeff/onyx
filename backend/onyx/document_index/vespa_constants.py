@@ -27,7 +27,7 @@ DOCUMENT_ID_ENDPOINT = (
 SEARCH_ENDPOINT = f"{VESPA_APP_CONTAINER_URL}/search/"
 
 NUM_THREADS = (
-    32  # since Vespa doesn't allow batching of inserts / updates, we use threads
+    20  # since Vespa doesn't allow batching of inserts / updates, we use threads
 )
 MAX_ID_SEARCH_QUERY_SIZE = 400
 # Suspect that adding too many "or" conditions will cause Vespa to timeout and return

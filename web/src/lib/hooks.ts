@@ -756,7 +756,7 @@ const MODEL_DISPLAY_NAMES: { [key: string]: string } = {
 
   // 1.5 pro models
   "gemini-1.5-pro": "Gemini 1.5 Pro",
-  "gemini-1.5-pro-latest": "Gemini 1.5 Pro (Latest)",
+  // "gemini-1.5-pro-latest": "Gemini 1.5 Pro (Latest)",
   "gemini-1.5-pro-001": "Gemini 1.5 Pro (v1)",
   "gemini-1.5-pro-002": "Gemini 1.5 Pro (v2)",
 
