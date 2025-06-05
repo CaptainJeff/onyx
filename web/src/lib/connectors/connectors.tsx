@@ -233,6 +233,14 @@ export const connectorConfigs: Record<
         description: "Index issues from repositories",
         optional: true,
       },
+      {
+        type: "checkbox",
+        query: "Include code?",
+        label: "Include code?",
+        description: "Index code from repositories",
+        name: "include_code",
+        optional: true,
+      },
     ],
     advanced_values: [],
   },
@@ -1482,6 +1490,7 @@ export interface GithubConfig {
   repositories: string; // Comma-separated list of repository names
   include_prs: boolean;
   include_issues: boolean;
+  include_code?: boolean;
 }
 
 export interface GitlabConfig {
